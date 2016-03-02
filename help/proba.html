@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>
-Pie Chart
+Q-Q-Plot
 </title>
 <link rel="stylesheet" type="text/css" href="help.css">
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML"></script>
@@ -10,23 +11,21 @@ Pie Chart
 <body>
 
 <div class="header">Definition</div>
-Plot the data against a theoretical distribution so that the points
-should be along a straight line.<br><br>
+Die Daten werden gegen eine theoretische Verteilung geplottet, sodass die Punkte auf einer gerade Linie liegen sollten.<br><br>
 
-On the horizontal axis : ordered statistic medians, i.e. quantiles
-of `(i-0.3175)/(n+0.365)` where `i` is the point number.<br>
-On the vertical axis : ordered values of the numerical field.<br><br>
+Auf der x-Achse: geordnete Mediane, d.h. die Quantile `(i-0.3175)/(n+0.365)`, wobei `i` die Nummer des Punktes ist.<br>
+Auf der y-Achse: geordnete Werte der quantitativen Variablen.<br><br>
 
-The correlation coefficient associated with the linear fit measures
-the goodness of the fit.<br>
-The intercept and slope give estimates of the location and scale
-parameters of the distribution.<br>
+Der Korrelationskoeffizient, der den linearen Fit widerspiegelt, misst die Güte der Anpassung.
 <br>
-<div class="header">Parameters</div>
-In the top slot, the qualitative field to analyze.<br>
+Intercept und Slope stellen Schätzungen des Lage- und des Streuungsparameters der Verteilung dar.
 <br>
-<div class="header">Actions</div>
-Choose the distribution from the popup menu.<br>
+<br>
+<div class="header">Parameter</div>
+Oberes Feld: quantitative Variable, die analysiert werden soll.<br>
+<br>
+<div class="header">Aktionen</div>
+Wählen Sie die Verteilung aus dem Popup-Menü.<br>
 
 </body>
 </html>
